@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background: #000;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav */
+.nav__item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__item li {
+  display: inline;
+  padding-left: 64px;
+}
+
+.nav__item li a {
+  text-decoration: none;
+  list-style: none;
+  color: #d2d2d2;
+  line-height: 19.2px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav__item li a:active {
+  color: #fff;
+}
+
+.nav__item li a:hover {
+  color: #fff;
+}
+
+.home {
+  color: #fff;
+}
+
+/* Introduction */
+.intro {
+  background: #000;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__1st,
+.content__2nd {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fff;
+}
+
+.content__1st {
+  margin-bottom: 20px;
+}
+
+.content__1st span {
+  background-color: #3649f8;
+  padding: 0 5px;
+  border-radius: 2px;
+}
+
+.content__1st a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content__1st a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.content__2nd {
+  margin-bottom: 40px;
+}
+
+.content__2nd a {
+  color: #fff;
+}
+
+.content__2nd a:hover {
+  background-color: #36f8d5;
+  color: #000;
+}
+
+.content p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Search Bar */
+.search {
+  padding: 64px 0px;
+  justify-content: center;
+}
+
+.search_bar .input input {
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+  border: 0px;
+  outline: none;
+}
+
+.search_bar form [placeholder="Search here"] {
+  font-family: Lato;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 12px 16px;
+  background-color: #e7e7e7;
+}
+
+.btn_bar .button input {
+  width: 100%;
+  border-radius: 0 8px 8px 0px;
+  border: 0;
+}
+
+.btn_bar form [value="Search"] {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 12px 16px;
+  text-align: center;
+  background-color: #3649f8;
+  color: #fff;
+}
+
+/* Oh My Work */
+.mywork h3 {
+  text-align: center;
+  color: #888888;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  margin-bottom: 64px;
+}
+
+.mywork h3:hover {
+  color: #3649f8;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Project */
+.project1 {
+  justify-content: center;
+}
+
+.project_info h4 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+.project_info .line {
+  height: 5px;
+  border-radius: 50px;
+  background-color: #3649f8;
+}
+
+.project_info .tagline {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bababa;
+}
+
+/* .project_info .tag {
+  width: 100%;
+} */
+
+.project_info .tag li {
+  display: inline;
+  list-style: none;
+  padding-right: 16px;
+  margin-bottom: 10px;
+}
+
+.project_info .tag a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0em;
+  text-align: left;
+}
