@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background: #000;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Nav */
+.nav__item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__item li {
+  display: flex;
+  padding-left: 64px;
+}
+
+.nav__item li a {
+  text-decoration: none;
+  list-style: none;
+  color: #d2d2d2;
+  line-height: 19.2px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.nav__item li a:active {
+  color: #fff;
+}
+
+.nav__item li a:hover {
+  color: #fff;
+}
+
+/* Introduction */
+.introduction {
+  height: 386px;
+  background-image: url("img/HomeSmartLight_Wallpaper.png");
+}
+
+.wallpaper {
+  height: 386px;
+  width: 100%;
+}
+
+.wallpaper {
+  align-content: center;
+}
+
+.wallpaper h2 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.wallpaper p {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-top: 32px;
+}
+
+/* Contact */
+.contact {
+  padding-top: 64px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+.contact .contact_me {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Content */
+.content {
+  justify-content: center;
+}
+
+/* Content left */
+.content_left nav ol li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #bababa;
+}
+
+.content_left nav ol .active {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #272343;
+}
+
+.content_left .article .table_chart .right_column {
+  justify-content: flex-end;
+}
+
+.content_left .img {
+  width: 100%;
+}
+
+.content_left p {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272343;
+}
+
+.content_left h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272343;
+  margin-bottom: 8px;
+}
+
+.content_left h4 {
+  font-size: 1.25rem;
+  font-style: bold;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272343;
+}
+
+.content_left .img_caption {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #bababa;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.table_chart h4{
+  font-weight: 600;
+}
+
+/* Content right */
+/* Search */
+.content_right form{
+  margin-bottom: 20px;
+}
+.content_right .input input{
+  width: 100%;
+  border-radius: 8px;
+  border: 0px;
+  outline: none;
+}
+
+.content_right form [placeholder="Search here"] {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  padding: 12px 16px;
+  background-color: #e7e7e7;
+}
+
+.content_right .line{
+  width: 100%;
+  height: 1px;
+  background: #272343;
+}
+
+/* Tags */
+.content_right .tag {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.content_right .tag .tagname{
+  cursor: pointer;
+}
+
+.content_right .tag .tagname:hover{
+  background-color: #d2d2d2;
+}
+
+.content_right .tag li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  padding: 10px;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.content_right .tag a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* Suggestion */
+
+.content_right .post{
+  margin: 20px 0;
+}
+
+.content_right h4{
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+margin: 20px 0;
+}
+
+.content_right .post h5{
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #272343;
+}
+
+.content_right .post p{
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: #272343;
+}
+
+.content_right .post img{
+  border-radius: 2px;
+}
