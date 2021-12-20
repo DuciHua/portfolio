@@ -60,7 +60,7 @@
   justify-content: center;
 }
 
-.intro .content{
+.intro .content {
   justify-content: flex-end;
 }
 
@@ -81,6 +81,46 @@
   background-color: #3649f8;
   padding: 0 5px;
   border-radius: 2px;
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  animation: glitch 800ms infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
 }
 
 .content__1st a {
@@ -114,6 +154,31 @@
   color: #fff;
 }
 
+/* Contact */
+
+/* .contact {
+  margin-right: 48px;
+} */
+
+.contact_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 180px;
+}
+
+.contact_icon a {
+  margin-bottom: 24px;
+}
+
+.line {
+  width: 1px;
+  background: #bababa;
+  height: px;
+}
+
 /* Search Bar */
 .search {
   padding: 64px 0px;
@@ -122,7 +187,7 @@
 
 .search_bar .input input {
   width: 100%;
-  border-radius: 8px 0 0 8px;
+  border-radius: 4px 0 0 4px;
   border: 0px;
   outline: none;
 }
@@ -138,7 +203,7 @@
 
 .btn_bar .button input {
   width: 100%;
-  border-radius: 0 8px 8px 0px;
+  border-radius: 0 4px 4px 0px;
   border: 0;
 }
 
@@ -155,35 +220,23 @@
   color: #fff;
 }
 
-/* .search_bar:active {
-  border-radius: 1px #000;
-} */
-
 /* Oh My Work */
-.mywork h3 {
-  text-align: center;
-  color: #888888;
-  font-size: 40px;
+.container h3 {
+  color: #000;
+  font-size: 2.5em;
   font-style: normal;
-  font-weight: 600;
-  line-height: 48px;
+  font-weight: 700;
+  line-height: 76.8px;
   letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
   margin-bottom: 64px;
 }
 
-.mywork h3:hover {
-  color: #3649f8;
-  text-shadow: 2px 2px 3px #919bf6;
-  cursor: pointer;
-}
-
 /* Project */
-.mywork {
-  margin-bottom: 100px;
-}
-
-.project1 {
+.project {
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .project_info h4 {
@@ -193,10 +246,9 @@
   line-height: 39px;
   letter-spacing: 0em;
   text-align: left;
-  
 }
 
-.project_info h4 a{
+.project_info h4 a {
   text-decoration: none;
   color: #000;
 }
@@ -223,11 +275,11 @@
   flex-wrap: wrap;
 }
 
-.tag .tagname{
+.tag .tagname {
   cursor: pointer;
 }
 
-.tag .tagname:hover{
+.tag .tagname:hover {
   background-color: #d2d2d2;
 }
 
@@ -265,31 +317,57 @@
   text-decoration: none;
 }
 
-.project_info .see_more a:hover {
-  background-color: #3649f8;
-  color: #fff;
-  cursor: pointer;
+.project_info .see_more a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #000;
+  transition: width 1s;
 }
 
+.project_info .see_more a:hover::after {
+  width: 25%;
+}
 
 .project_img img {
-  height: 262px;
+  height: 248px;
   width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer .line_end {
+  margin: auto;
+  width: 83px;
+  text-align: center;
+  height: 4px;
   border-radius: 8px;
-  /* box-shadow: 6px 6px #35e3fa; */
+  background: #000;
+  margin-top: 100px;
+  margin-bottom: 8px;
 }
 
-
-
-/* Indicator */
-.indicator{
-  margin-top: -36px;
+#footer .content_footer {
+  margin: 16px auto;
 }
 
-.indicator_page{
-  justify-content: center;
+.content_footer p {
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
-.indicator_page .indicator_page_content{
-  background-color: #3649f8;
+.content_footer p span {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
 }
