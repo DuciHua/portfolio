@@ -289,14 +289,6 @@
   flex-wrap: wrap;
 }
 
-.tag .tagname {
-  cursor: pointer;
-}
-
-.tag .tagname:hover {
-  background-color: #d2d2d2;
-}
-
 .project_info .tag li {
   list-style: none;
   margin-bottom: 10px;
