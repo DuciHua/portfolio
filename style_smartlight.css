@@ -5,52 +5,51 @@
   box-sizing: border-box;
 }
 
-/* Header */
-.header {
-  background: #000;
+/* Navbar */
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.navbar {
   height: 99px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #000;
 }
 
-/* Nav */
-.nav__item {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav {
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.nav__item li {
-  display: flex;
-  padding-left: 64px;
-}
-
-.nav__item li a {
-  text-decoration: none;
-  list-style: none;
+.navbar ul li a {
+  color: #fff;
   color: #d2d2d2;
   line-height: 19.2px;
   font-size: 1rem;
   font-weight: 400;
 }
 
-.nav__item li a:active {
+.navbar ul li {
+  padding-left: 64px;
+}
+
+.navbar ul li a:hover {
   color: #fff;
 }
 
-.nav__item li a:hover {
+.navbar ul .active {
   color: #fff;
+}
+
+#logo {
+  margin-left: 10%;
+}
+
+#menu_nav {
+  margin-right: 10%;
 }
 
 /* Introduction */
 .introduction {
   height: 386px;
   background-image: url("img/HomeSmartLight/HomeSmartLight_Wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-bottom: 40px;
 }
 
@@ -170,6 +169,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #272343;
+  margin-top: 24px;
   margin-bottom: 8px;
 }
 
@@ -287,8 +287,26 @@
   color: #272343;
 }
 
-.content_right .post img {
-  border-radius: 2px;
+/* Show case */
+.content_2 {
+  justify-content: center;
+}
+
+.content_2 h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #272343;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+img.showcase_1 {
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 /* Footer */

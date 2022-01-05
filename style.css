@@ -11,6 +11,7 @@
 }
 
 .navbar {
+  height: 99px;
   background: #000;
 }
 
@@ -32,6 +33,14 @@
 
 .navbar ul .active {
   color: #fff;
+}
+
+#logo {
+  margin-left: 10%;
+}
+
+#menu_nav{
+  margin-right: 10%;
 }
 
 /* Introduction */
@@ -116,11 +125,7 @@
   text-decoration: underline;
 }
 
-.content__2nd {
-  margin-bottom: 40px;
-}
-
-.content__2nd a {
+.content__2nd a{
   color: #fff;
 }
 
