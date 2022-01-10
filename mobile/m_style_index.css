@@ -4,38 +4,19 @@
   box-sizing: border-box;
 }
 
-/* Navbar */
-.ml-auto {
-  margin-left: auto !important;
+body a {
+  text-decoration: none;
+  color: #000;
 }
 
-#logo {
-  margin-left: 2%;
+/* Header */
+header{
+  margin: 44px 0;
+  padding: 0 24px;
 }
-
-.navbar-toggler {
-  margin-right: 2%;
-}
-
-.navbar {
-  height: 99px;
-  background: #fff;
-}
-
-.navbar ul li a {
-  color: #fff;
-  color: #d2d2d2;
-  line-height: 19.2px;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.navbar ul li {
-  padding-left: 64px;
-}
-
-.navbar ul .active {
-  color: #fff;
+.header{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Intro */
@@ -114,14 +95,14 @@
 .content__2nd {
   font-size: 1.25rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 27px;
   letter-spacing: 0em;
   text-align: left;
 }
 
 .content__2nd span {
-  color: #000;
+  color: #3649f8;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;
@@ -134,7 +115,7 @@
 .content__3rd {
   font-size: 1rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: justify;
@@ -153,7 +134,7 @@ p .content__3rd {
 }
 
 /* Oh My Work */
-.wow h3 {
+.h3_text h3 {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
@@ -174,8 +155,9 @@ p .content__3rd {
   margin-bottom: 80px;
 }
 
+
 /* Project */
-.project_title {
+.project_title a {
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 600;
@@ -207,18 +189,58 @@ p .content__3rd {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 19px;
   letter-spacing: 0em;
   text-align: justify;
   color: #bababa;
   margin-top: 10px;
 }
 
+.see_more{
+  display: flex;
+  justify-content: space-between;
+}
+
 .project_see_more {
   font-size: 1rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 19px;
   letter-spacing: 0em;
-  text-align: right;
+  color: #000;
+}
+
+.arrow img {
+  width: 16px;
+  height: 16px;
+}
+
+/* Footer */
+.footer .line_end {
+  margin: auto;
+  height: 1px;
+  width: 100px;
+  background: black;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.content_footer p {
+  text-align: center;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.content_footer p span {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
 }

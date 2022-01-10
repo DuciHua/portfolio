@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../mobile/m_style.css" />
+    <link rel="stylesheet" href="../mobile/m_style_index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,52 +19,20 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <title>Duci Hua</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a id="logo" class="navbar-brand" href="m_index.html"
-            ><img src="../img/m_ducihua_black.png" alt="ducihua"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="menu_nav" class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="m_index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="m_photography.html">Photography</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="m_share.html">Share</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="m_myself.html"
-                  >Myself</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div class="header">
+        <a href=""><img src="../img/m_ducihua_black.png" alt="Duci Hua"></a>
+        <a href=""><img src="../img/icon/menu.svg" alt=""></a>
+      </div>
     </header>
 
     <!-- Introduction -->
@@ -83,42 +51,52 @@
           <a href="m_share.html"><span>and camp.</span></a>
         </h2>
         <p class="content__3rd">
-          Started as a Graphic Designer, transitioned to Product Design
-          <br />
-          field since 2017. Vietnam-based, love solving problems by <br />
-          tech and creativity.
+          Started as a Graphic Designer, transitioned to Product Design field
+          since 2017. Vietnam-based, love solving problems by tech and
+          creativity.
         </p>
       </div>
     </div>
 
-    <div class="line">
+    <div class="line fadeInUp wow animate slow .5s">
       <p></p>
     </div>
 
-    <div class="wow animate__bounceIn">
+    <div class="h3_text wow animated bounceIn">
       <h3>Oh. My. Work.</h3>
     </div>
 
     <div id="project">
       <!-- Project 1 -->
-      <div class="project1">
-        <h3 class="project_title">Home Smart Light</h3>
+      <div class="project1 fadeInUp wow animate slow .5s">
+        <h3 class="project_title">
+          <a href="../mobile/m_smartlight.html">Home Smart Light</a>
+        </h3>
         <h4 class="project_sub_title">Building the convenience for home.</h4>
-        <a href=""
+        <a href="../mobile/m_smartlight.html"
           ><img
-            src="https://images.unsplash.com/photo-1640942382188-6bb825b3a2b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+            src="../img/HomeSmartLight/Dribble show 1.png"
             alt=""
         /></a>
         <h4 class="project_content">
-          Building the convenience for home. It had been built since 2018 to
-          2019, now it’s one of...
+          <a href="../mobile/m_smartlight.html">
+            Building the convenience for home. It had been built since 2018 to
+            2019, now it’s one of...</a
+          >
         </h4>
-        <p class="project_see_more">View case study</p>
+        <div class="see_more">
+          <a href="../mobile/m_smartlight.html"
+            ><p class="project_see_more">View case study</p></a
+          >
+          <a href="../mobile/m_smartlight.html" class="arrow"
+            ><img src="../img/icon/arrow_right.svg" alt=""
+          /></a>
+        </div>
       </div>
 
       <!-- Project 2 -->
-      <div class="project2">
-        <h3 class="project_title">Home Smart Light</h3>
+      <div class="project2 fadeInUp wow animate slow .5s">
+        <h3 class="project_title"><a href="">Home Smart Light</a></h3>
         <h4 class="project_sub_title">Building the convenience for home.</h4>
         <a href=""
           ><img
@@ -126,15 +104,22 @@
             alt=""
         /></a>
         <h4 class="project_content">
-          Building the convenience for home. It had been built since 2018 to
-          2019, now it’s one of...
+          <a href="">Building the convenience for home. It had been built since 2018 to
+            2019, now it’s one of...</a>
         </h4>
-        <p class="project_see_more">View case study</p>
+        <div class="see_more">
+          <a href="../mobile/m_smartlight.html"
+            ><p class="project_see_more">View case study</p></a
+          >
+          <a href="../mobile/m_smartlight.html" class="arrow"
+            ><img src="../img/icon/arrow_right.svg" alt=""
+          /></a>
+        </div>
       </div>
 
       <!-- Project 3 -->
-      <div class="project3">
-        <h3 class="project_title">Home Smart Light</h3>
+      <div class="project3 fadeInUp wow animate slow .5s">
+        <h3 class="project_title"><a href="">Home Smart Light</a></h3>
         <h4 class="project_sub_title">Building the convenience for home.</h4>
         <a href=""
           ><img
@@ -142,10 +127,27 @@
             alt=""
         /></a>
         <h4 class="project_content">
-          Building the convenience for home. It had been built since 2018 to
-          2019, now it’s one of...
+          <a href="">Building the convenience for home. It had been built since 2018 to
+            2019, now it’s one of...</a>
         </h4>
-        <p class="project_see_more">View case study</p>
+        <div class="see_more">
+          <a href="../mobile/m_smartlight.html"
+            ><p class="project_see_more">View case study</p></a
+          >
+          <a href="../mobile/m_smartlight.html" class="arrow"
+            ><img src="../img/icon/arrow_right.svg" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="footer">
+        <div class="line_end"></div>
+      </div>
+      <div class="content_footer">
+        <p>Designed & built by <span>ducihua</span> &copy 2020</p>
       </div>
     </div>
 
@@ -154,7 +156,18 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script src="js/wow.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script>
       new WOW().init();
     </script>

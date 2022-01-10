@@ -327,24 +327,20 @@
 .project_img img {
   height: 248px;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 2px;
   object-fit: cover;
 }
 
 /* Footer */
 .footer .line_end {
   margin: auto;
-  width: 83px;
+  width: 100px;
   text-align: center;
-  height: 4px;
+  height: 1px;
   border-radius: 8px;
   background: #000;
   margin-top: 100px;
   margin-bottom: 8px;
-}
-
-#footer .content_footer {
-  margin: 16px auto;
 }
 
 .content_footer p {
