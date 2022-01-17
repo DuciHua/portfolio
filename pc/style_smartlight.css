@@ -220,7 +220,17 @@
   margin-top: 8px;
 }
 
+/* Content */
+.content{
+  position:  ;
+}
+
 /* Content right */
+.content_right{
+  position: sticky;
+  top: 0;
+}
+
 /* Search */
 .content_right form {
   margin-bottom: 20px;
