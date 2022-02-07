@@ -24,57 +24,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Home Smart Light Project</title>
+    <title>Equipment Management Project</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a id="logo" class="navbar-brand" href="../index.html"
-            ><img src="../img/ducihua.png" alt="Duci Hua"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="menu_nav" class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pc/photography.html">Photography</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Share</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pc/myself.html">Myself</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div class="header_logo">
+        <a href="../index.html"><img src="../img/ducihua.png" alt="Duci Hua" /></a>
+      </div>
+      <div class="header_navigation">
+        <ul>
+          <a href="../index.html"><li>Home</li></a>
+          <a href="../pc/photography.html"><li>Photography</li></a>
+          <a href="#"><li>Share</li></a>
+          <a href="../pc/myself.html"><li>Myself</li></a>
+        </ul>
+      </div>
     </header>
 
     <!-- Project Introduction -->
     <div class="container-fluid introduction">
       <div class="container">
         <div class="row wallpaper">
-          <h2>HOME SMART LIGHT</h2>
+          <h2>EQUIPMENT MANAGEMENT</h2>
           <p>
-            This project was created in the context that the whole world is struggling with the COVID-19 pandemic. <br />
-            This is an important digital transformation project of the health department and its mission is to help to maximize the device allocation process between medical units. <br />
+            This project was created in the context that the world is struggling with the COVID-19 pandemic. <br />
+            This is an important digital transformation project of the health department <br />
+            and its mission is to help to maximize the device allocation process between medical units.
           </p>
         </div>
       </div>
@@ -90,7 +66,7 @@
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="index.html">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">
-                Medical Equipment Management
+                Equipment Management
               </li>
             </ol>
           </nav>
@@ -132,7 +108,7 @@
             <p>
                 As many projects I have made before, thing I wanted to do first was building the connection. You just can’t go far without understading your team mate so I was deciding to talk and spread out some of my ideas with my co-workers, especially the Business Analysist (BA) team and Developer (Dev) team. 
             </p>
-            <h4>2. Rsearch</h4>
+            <h4>2. Research</h4>
             <p>
                 We already grabbed in hand some main problems and expectations from shareholders before, but in order to understand more the context, we thought that talking with our end-real-users was worthy. So we arranged a meeting-call with who directly implementing the work and would also be the users using the software. Here are what we got:
             </p>
@@ -146,7 +122,8 @@
             <p>
                 We worked closely and regularly with stakeholders from the beginning of this project, just to make sure the possibility of taking wrong direction must be the lowest. And after few days of discussing with them, we came up with the very first version of sitemap. We visualized everything down to those rectangles.
             </p>
-            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="article_img" />
+            <img src="../img/AIC/Sitemap.png" alt="Sitemap" class="article_img" />
+            <img src="../img/AIC/Sitemap_breakdown.png" alt="Sitemap" class="article_img" />
             <p class="img_caption">Building sitemap.</p>
             <p>
                 Then we broke it down to tons of branches and also added flow to it. Sticked with seasoned BA team to define those versions of sitemap brought to me lots of experiences, took their advices helping me to make better stream for the whole site. There’s just one simple rule: The golden path should as just short as possible.
@@ -155,17 +132,17 @@
             <p>
                 We ran this project in Agile practice so everytime I got the input, I worked on it right after that. At this point, I was taking first features for each page from BA and that means wireframe was ready to be made. I did the mid fidelity wireframe first to give it the layout.
             </p>
-            <img src="https://images.unsplash.com/photo-1600132806608-231446b2e7af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="" class="article_img" />
+            <img src="../img/AIC/Mid_wireframe.png" alt="" class="article_img" />
             <p class="img_caption">Mid fidelity Wireframe.</p>
             <p>One of the hardest part when I built the wireframe was the Dashboard. I came up with some ideas then discussed it with few medical staffs who were going to use it. The result was out of my prediction but what they felt good was what we should follow.</p>
          </div>
           <div class="row table_chart">
-            <div class="col-lg-6 col-md-7 left_column">
-              <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
+            <div class="col-lg-6 col-md-12 left_column">
+              <img src="../img/AIC/High_wireframe 1.png" alt="" class="img_split">
               <p class="img_caption">1st version.</p>
             </div>
-            <div class="col-lg-6 col-md-7 right_column">
-                <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
+            <div class="col-lg-6 col-md-12 right_column">
+                <img src="../img/AIC/High_wireframe 2.png" alt="" class="img_split">
                 <p class="img_caption">2nd version.</p>
             </div>
           </div>
@@ -173,25 +150,24 @@
           <p>
             Next, I moved to build high version of wireframe and it was also the appearance concept that we brought to the stakeholders for the first presentation. As we discussed before, the UI wouldn’t be looked the same as some fancy designs on social media that we used to see, I wanted to keep it clean, familiar with what they saw everyday and strongly focused on UX aspect.
           </p>
-          <img src="https://images.unsplash.com/photo-1606166325683-e6deb697d301?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1185&q=80" alt="" class="article_img" />
-          <img src="https://images.unsplash.com/photo-1606166325683-e6deb697d301?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1185&q=80" alt="" class="article_img" />
+          <img src="../img/AIC/High_wireframe 3.png" alt="" class="article_img" />
           <p class="img_caption">I decided to picked up blue as the main color for this project interspersed with red.</p>
           <h4>6. User interface</h4>
           <p>
             Yet the were few things needed to be fixed on both the wireframe and the concept of UI but in general the presentation went well. I got supported from co-workers to adjust the wireframe while kept building the components for UI work. At this point, things became so suffocating because of its deadline. My team and I had to work overtime over the weekend, we even ate and slept at office in order to keep the commitment. I consider this one of the best experience of my career. We fought to help repulsing the epidemic together.
           </p>
           <div class="row table_chart">
-            <div class="col-lg-6 col-md-7 left_column">
-              <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
+            <div class="col-lg-6 col-md-12 left_column">
+              <img src="../img/AIC/Rest 3.png" alt="" class="img_split">
               <p class="img_caption">We took short sleeps whenever felt tired.</p>
             </div>
-            <div class="col-lg-6 col-md-7 right_column">
-                <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
+            <div class="col-lg-6 col-md-12 right_column">
+                <img src="../img/AIC/Rest 2.png" alt="" class="img_split">
             </div>
           </div>
           <div class="row table_chart">
-            <div class="col-lg-12 col-md-7 left_column">
-              <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
+            <div class="col-lg-12 col-md-12 left_column">
+              <img src="../img/AIC/Rest 1.png" alt="" class="img_split last">
               <p class="img_caption">Time to feed ourself and support nation football team.</p>
             </div>   
           </div>
@@ -208,18 +184,9 @@
             The next presentation came in each 1 week, whenever we finished something, we would presented then passed it over the Dev team.
           </p>
           <div class="row table_chart">
-            <div class="col-lg-6 col-md-7 left_column">
-              <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
-              <p class="img_caption">We took short sleeps whenever felt tired.</p>
-            </div>
-            <div class="col-lg-6 col-md-7 right_column">
-                <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
-            </div>
-          </div>
-          <div class="row table_chart">
-            <div class="col-lg-12 col-md-7 left_column">
-              <img src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img_split">
-              <p class="img_caption">Time to feed ourself and support nation football team.</p>
+            <div class="col-lg-12 col-md-12 left_column">
+              <img src="../img/AIC/Component 1.png" alt="Component" class="img_split">
+              <p class="img_caption">Design component.</p>
             </div>   
           </div>
           <h3>Growth</h3>
@@ -242,48 +209,30 @@
             And, finally, here are some of the main screens that I made, take a look at it:
           </p>
           <img
-            src="/img/HomeSmartLight/Dribble show 1.png"
+            src="/img/AIC/Dribble Show 1.png"
             alt=""
             class="showcase_img fadeInUp wow animate slow .5s"
           />
           <p class="img_caption">Overview</p>
           <img
-            src="/img/HomeSmartLight/Dribble show 2.png"
+            src="/img/AIC/Dribble Show 2.png"
             alt=""
             class="showcase_img fadeInUp wow animate slow .5s"
           />
           <p class="img_caption">Log in/Sign up</p>
           <img
-            src="/img/HomeSmartLight/Dribble show 3.png"
+            src="/img/AIC/Dribble Show 3.png"
             alt=""
             class="showcase_img fadeInUp wow animate slow .5s"
           />
           <p class="img_caption">Home section</p>
           <img
-            src="/img/HomeSmartLight/Dribble show 4.png"
+            src="/img/AIC/Dribble Show 4.png"
             alt=""
             class="showcase_img fadeInUp wow animate slow .5s"
           />
           <p class="img_caption">Managing lights</p>
-          <img
-            src="/img/HomeSmartLight/Dribble show 5.png"
-            alt=""
-            class="showcase_img fadeInUp wow animate slow .5s"
-          />
-          <p class="img_caption">Adjusting light</p>
-          <img
-            src="/img/HomeSmartLight/Dribble show 6.png"
-            alt=""
-            class="showcase_img fadeInUp wow animate slow .5s"
-          />
-          <p class="img_caption">Setting up animation</p>
-          <img
-            src="/img/HomeSmartLight/Dribble show 7.png"
-            alt=""
-            class="showcase_img fadeInUp wow animate slow .5s"
-          />
-          <p class="img_caption_last">Setting</p>
-          <h4>Thanks for watching! </h4>
+          <h4>Thanks for reading! </h4>
         </div>
 
         <!-- Content Mid -->

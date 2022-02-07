@@ -31,87 +31,54 @@
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a id="logo" class="navbar-brand" href="index.html"
-            ><img src="../img/ducihua.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="menu_nav" class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pc/photography.html">Photography</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pc/share.html">Share</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pc/myself.html">Myself</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <div class="header_logo">
+        <a href="index.html"><img src="img/ducihua.png" alt="Duci Hua" /></a>
+      </div>
+      <div class="header_navigation">
+        <ul>
+          <a href="index.html"><li class="header_actived">Home</li></a>
+          <a href="pc/photography.html"><li>Photography</li></a>
+          <a href="pc/share.html"><li>Share</li></a>
+          <a href="pc/myself.html"><li>Myself</li></a>
+        </ul>
+      </div>
     </header>
 
     <!-- Introduction -->
-    <div class="container-fluid intro">
-      <div class="container">
-        <div class="row intro">
-          <div
-            class="col-lg-3 col-md-12 col-sm-12 img animated fadeInLeft animate slow 2s p-0 m-0"
-          >
-            <img src="../img/avatar.png" alt="Duci.Hua" />
-          </div>
-          <div
-            class="col-lg-7 col-md-12 col-sm-12 content animated fadeInRight animate slow 2s p-0 m-0"
-          >
-            <h2 class="content__1st">
-              Hi,
-              <a href="myself.html"><span>I'm Duci.</span></a>
-              <img src="../img/icon/hand-wave.svg" alt="" />
-            </h2>
-            <h2 class="content__2nd">
-              I do
-              <a href="#work">design,</a>
-              <a href="photography.html">photograph,</a>
-              <a href="share.html">write</a>
-              <a href="share.html">and camp.</a>
-            </h2>
-            <p>
-              Started as a Graphic Designer, transitioned to Product Design
-              field since 2017.<br />
-              Vietnam-based, love solving problems by tech and creativity.
-            </p>
-          </div>
-        </div>
+    <div class="introduction">
+      <div class="img animated fadeInLeft animate slow 2s p-0 m-0">
+        <img src="../img/avatar.png" alt="Duci.Hua" />
+      </div>
+      <div class="content animated fadeInRight animate slow 2s p-0 m-0">
+        <h2 class="content__1st">
+          Hi,
+          <a href="myself.html"><span>I'm Duci.</span></a>
+          <img src="../img/icon/hand-wave.svg" alt="" />
+        </h2>
+        <h2 class="content__2nd">
+          I do
+          <a href="#work">design,</a>
+          <a href="../pc/photography.html">photograph,</a>
+          <a href="../pc/photography.html">write</a>
+          <a href="../pc/share.html">and camp.</a>
+        </h2>
+        <p>
+          Started as a Graphic Designer, transitioned to Product Design field
+          since 2017.<br />
+          Vietnam-based, love solving problems by tech and creativity.
+        </p>
       </div>
     </div>
 
     <!-- Search Bar -->
     <div class="container search_bar">
       <div class="row search">
-        <div class="col-lg-9 col-md-8 col-sm-12 search_bar p-0 m-0">
+        <div class="col-lg-9 search_bar p-0 m-0">
           <form class="input" action="">
             <input type="text" placeholder="Search here" />
           </form>
         </div>
-        <div class="col-lg-1 col-md-2 col-sm-12 btn_bar p-0 m-0">
+        <div class="col-lg-1 btn_bar p-0 m-0">
           <form class="button" action="">
             <input type="submit" value="Search" />
           </form>
@@ -127,9 +94,9 @@
       </div>
       <!-- Project 1 -->
       <div class="row project fadeInUp wow animate slow 2s">
-        <div class="col-lg-5 col-md-10 project_info p-0 m-0">
+        <div class="col-lg-5 project_info p-0 m-0">
           <h4><a href="../pc/smartlight.html">Home Smart Light</a></h4>
-          <div class="col-lg-1 col-md-1 line"></div>
+          <div class="col-lg-1 line"></div>
           <p class="tagline">Building the convenience for home.</p>
           <ul class="col-lg-12 tag p-0 m-0">
             <li class="tagname">From scratch</li>
@@ -143,7 +110,7 @@
             <a href="../pc/smartlight.html">View case study</a>
           </p>
         </div>
-        <div class="col-lg-5 col-md-10 project_img p-0 m-0">
+        <div class="col-lg-5 project_img p-0 m-0">
           <img
             src="../img/HomeSmartLight/Dribble show 1.png"
             alt="Phenikaa Smart Lighting"
@@ -153,9 +120,9 @@
 
       <!-- Project 2 -->
       <div class="row project fadeInUp wow animate slow 2s">
-        <div class="col-lg-5 col-md-10 project_info p-0 m-0">
-          <h4><a href="../pc/AIC.html">Medical Equipment Management</a></h4>
-          <div class="col-lg-1 col-md-1 col-sm-1 line"></div>
+        <div class="col-lg-5 project_info p-0 m-0">
+          <h4><a href="../pc/AIC.html">Equipment Management</a></h4>
+          <div class="col-lg-1 line"></div>
           <p class="tagline">Process simplification.</p>
           <ul class="col-lg-12 tag p-0 m-0">
             <li class="tagname">From scratch</li>
@@ -168,7 +135,7 @@
           </ul>
           <p class="see_more"><a href="../pc/AIC.html">View case study</a></p>
         </div>
-        <div class="col-lg-5 col-md-10 project_img p-0 m-0">
+        <div class="col-lg-5 project_img p-0 m-0">
           <img
             src="../img/AIC/Dribble Show 1.png"
             alt="Medical Device Management"
@@ -178,9 +145,9 @@
 
       <!-- Project 3 -->
       <div class="row project fadeInUp wow animate slow 2s">
-        <div class="col-lg-5 col-md-10 project_info p-0 m-0">
+        <div class="col-lg-5 project_info p-0 m-0">
           <h4><a href="">Lottery Social Media</a></h4>
-          <div class="col-lg-1 col-md-1 col-sm-1 line"></div>
+          <div class="col-lg-1 line"></div>
           <p class="tagline">Redefining the lottery world.</p>
           <ul class="col-lg-12 tag p-0 m-0">
             <li class="tagname">From scratch</li>
@@ -193,7 +160,7 @@
           </ul>
           <p class="see_more"><a href="">View case study</a></p>
         </div>
-        <div class="col-lg-5 col-md-10 project_img p-0 m-0">
+        <div class="col-lg-5 project_img p-0 m-0">
           <img
             src="https://images.unsplash.com/photo-1576153192281-d558108925bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
             alt="Lottery Social Media"

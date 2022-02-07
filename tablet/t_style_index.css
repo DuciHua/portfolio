@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+
+body ul {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Header */
+header {
+  height: 99px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 56px;
+}
+
+.header_navigation ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header_navigation ul li {
+  display: inline;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d2d2d2;
+  padding-left: 48px;
+}
+
+.header_navigation ul li:hover {
+  color: #fff;
+}
+
+ul a .header_actived {
+  color: #fff;
+}
+
+/* Introduction */
+.introduction {
+  height: 526px;
+  background: #000;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction img {
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.content__1st {
+  margin: 0;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fff;
+  text-align: center;
+}
+.content__2nd {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.content__1st span {
+  background-color: #3649f8;
+  padding: 0 5px;
+  border-radius: 2px;
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  animation: glitch 800ms infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+
+.content__1st a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content__1st a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.content__2nd a {
+  color: #fff;
+}
+
+.content__2nd a:hover {
+  background-color: #36f8d5;
+  color: #000;
+}
+
+.content p {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.content h2 img{
+    padding: 0;
+    margin: 0;
+}
+
+/* Oh My Work */
+.h3_text h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Project */
+#work {
+  padding: 0 48px;
+}
+
+/* Project 1 */
+.project1,
+.project2 {
+  margin-bottom: 60px;
+}
+
+/* Project */
+.project_title a {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.project_sub_title {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bababa;
+}
+
+.project1 img,
+.project2 img,
+.project3 img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.project_content {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: #bababa;
+  margin: 20px 0;
+}
+
+.img_sub {
+  color: #bababa;
+}
+
+.see_more {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project_see_more {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #000;
+  text-decoration: underline;
+}
+
+.arrow img {
+  width: 24px;
+  height: 24px;
+}

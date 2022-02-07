@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        function loadcontent() {
-            var BreakPoint = 480; // pixel
-            if ($(window).width() < BreakPoint) {
-                file = "./mobile/m_index.html";
-            } 
-
-            // if ($(window).width() > BreakPoint && $(window).width() < 1024) {
-            //     file = "./tablet/m_tablet.html";
-            // } 
-            
-            else {
-                file = "./pc/index.html";
-            }
-            $("#content").load(file);
+      function loadcontent() {
+        var BreakPoint = 480; // pixel
+        if ($(window).width() < BreakPoint) {
+          file = "./mobile/m_index.html";
         }
+
+        if ($(window).width() > BreakPoint && $(window).width() < 1024) {
+          file = "./tablet/m_tablet.html";
+        } else {
+          file = "./pc/index.html";
+        }
+        $("#content").load(file);
+      }
+      loadcontent();
+      $(window).resize(function () {
         loadcontent();
-        $(window).resize(function () {
-            loadcontent();
-        });
+      });
     </script>
-</body>
+  </body>
 </html>

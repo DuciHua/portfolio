@@ -5,42 +5,39 @@
   box-sizing: border-box;
 }
 
-/* Navbar */
-.ml-auto {
-  margin-left: auto !important;
+body a{
+  text-decoration: none;
 }
 
-.navbar {
+/* Header */
+header {
   height: 99px;
-  background: #000;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 56px;
 }
 
-.navbar ul li a {
-  color: #fff;
-  color: #d2d2d2;
-  line-height: 19.2px;
+.header_navigation ul {
+  padding: 0;
+  margin: 0;
+}
+
+.header_navigation ul li {
+  display: inline;
+  margin-left: 48px;
   font-size: 1rem;
+  font-style: normal;
   font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #bababa;
 }
 
-.navbar ul li {
-  padding-left: 64px;
-}
-
-.navbar ul li a:hover {
+.header_navigation ul li:hover {
   color: #fff;
-}
-
-.navbar ul .active {
-  color: #fff;
-}
-
-#logo {
-  margin-left: 10%;
-}
-
-#menu_nav {
-  margin-right: 10%;
 }
 
 /* Introduction */
@@ -162,7 +159,7 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
   color: #272343;
@@ -220,35 +217,10 @@
   margin-top: 8px;
 }
 
-/* Content */
-.content{
-  position:  ;
-}
-
 /* Content right */
 .content_right{
   position: sticky;
   top: 0;
-}
-
-/* Search */
-.content_right form {
-  margin-bottom: 20px;
-}
-.content_right .input input {
-  width: 100%;
-  border-radius: 8px;
-  border: 0px;
-  outline: none;
-}
-
-.content_right form [placeholder="Search here"] {
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 19px;
-  padding: 12px 16px;
-  background-color: #e7e7e7;
 }
 
 .content_right .line {
@@ -348,7 +320,7 @@
   height: 1px;
   border-radius: 8px;
   background: #000;
-  margin-top: 100px;
+  margin-top: 48px;
   margin-bottom: 8px;
 }
 
@@ -369,4 +341,32 @@
   line-height: 29px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+
+@media (min-width: 0px) and (max-width: 1410px){
+  .content_right{
+    display: none;
+  }
+
+  .wallpaper h2 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .wallpaper p {
+    margin: 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+  }
 }
